@@ -1,0 +1,229 @@
+body{
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+#title{
+    background-color: #000000;
+    color: #FFF;
+}
+
+.container-fluid {
+    padding: 2% 5% 7%;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 2;
+}
+
+h2{
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* NAVIGATION BAR */
+
+.navbar {
+    padding: 0 0 1.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.temp{
+    height: 300px;
+}
+
+/* DOWNLOAD BUTTON */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* TITLE IMAGE */
+
+.title-image {
+    width: 20%;
+    position: absolute;
+    left: 15%;
+}
+
+#features {
+    padding: 2% 15%;
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-title {
+    font-size: 15px;
+}
+
+.card-title i {
+    font-size: 25px;
+}
+
+/* TESTIMONIALS */
+
+
+#testimonials {
+    background-color: #707070;
+    text-align: center;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing {
+    padding: 100px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Team Information */
+
+.team-boxed {
+    color: #313437;
+    background-color: #a5a5a5;
+}
+
+.team-boxed p {
+    color: #7d8285;
+}
+
+.team-boxed h2 {
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+    padding-top: 40px;
+    color: inherit;
+}
+
+@media (max-width:767px) {
+    .team-boxed h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px;
+    }
+}
+
+.team-boxed .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+.team-boxed .people {
+    padding: 50px 0;
+}
+
+.team-boxed .item {
+    text-align: center;
+}
+
+.team-boxed .item .box {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+.team-boxed .item .name {
+    font-weight: 300;
+    font-family: ubuntu;
+    margin-top: 28px;
+    margin-bottom: 8px;
+    color: inherit;
+}
+
+.team-boxed .item .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #d0d0d0;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+.team-boxed .item .description {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.team-boxed .item img {
+    max-width: 160px;
+}
+
+.team-boxed .social {
+    font-size: 18px;
+    color: #a2a8ae;
+}
+
+.team-boxed .social a {
+    color: inherit;
+    margin: 0 10px;
+    display: inline-block;
+    opacity: 0.7;
+}
+
+.team-boxed .social a:hover {
+    opacity: 1;
+}
+
+/* FOOTER */
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 5% 15%;
+}
+
+.social-icon {
+    margin: 25px 17px;
+}
+
+
+
+
+
